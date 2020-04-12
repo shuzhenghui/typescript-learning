@@ -107,3 +107,16 @@ class Bbc {
     // 这种方法是上面类中属性定义的简便写法
     constructor(private name: string, private age: number) { }
 }
+
+enum Animal {
+
+}
+// 枚举enum前加 const 区别：加const编译后不会创建这个枚举对象，不加会创建一个枚举所对应的对象
+const enum Animal1 {
+
+}
+
+
+window.onmousedown = (e: object): void => {
+    console.log(e)
+}
